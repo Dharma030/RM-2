@@ -1,0 +1,40 @@
+The document and window objects are both important components in web development, but they serve different purposes and have distinct functionalities. 
+Here are the key differences between the document and window objects:
+
+Purpose and Scope:
+
+Document Object: The document object represents the HTML document within a window or frame. It provides access to the content and structure of a web page and allows manipulation of its elements,
+such as modifying HTML elements, adding or removing content, and accessing form data.
+Window Object: The window object represents an open window or tab in a web browser. It encompasses the entire browser window and provides control over the browser's behavior, 
+including navigation, resizing, opening new windows, and interacting with the user.
+
+Accessibility:
+
+Document Object: The document object is accessible within the context of a web page. It is typically accessed using the global document variable or through methods and properties available 
+to other objects, such as the window object.
+Window Object: The window object is accessible globally and represents the browser window or tab itself. It is often accessed using the global window variable and provides access to the 
+document object, as well as other browser-related properties and methods.
+
+Functionality:
+
+Document Object: The document object focuses on the content and structure of the web page. It provides methods and properties for manipulating elements, modifying styles, interacting with events, 
+accessing and modifying form data, and performing DOM (Document Object Model) manipulation.
+Window Object: The window object encompasses broader functionality related to the browser window. It includes methods and properties for navigation (e.g., window.location), timing and intervals 
+(e.g., window.setTimeout()), opening and closing windows (e.g., window.open()), managing cookies, accessing browser history, and handling browser-specific features.
+
+Relationship:
+
+Document Object: The document object is a property of the window object, accessible through window.document or simply document. It represents the web page content loaded within the window.
+Window Object: The window object is the global object that represents the browser window or tab. It contains properties and methods for managing the window, including the document object as one 
+of its properties.
+In summary, the document object primarily deals with the content and structure of a web page, while the window object represents the browser window itself and provides control over 
+its behavior and features. The document object is a subset of the window object, focusing specifically on the web page's DOM, whereas the window object encompasses a 
+broader range of functionality related to the browser environment.
+
+THANK YOU 
+
+
+
+
+
+
